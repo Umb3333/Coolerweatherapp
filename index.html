@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getforecast();">
+  <div class="vertical-grid">
+  <div class="timeanddate">
+    <div class="time" id="time">
+      
+         11:11 <span id="am-pm">AM</span>
+         
+    </div>
+    
+    <div class="date" id="date">
+       Tuesday, 01 October
+  </div>
+   <!--div>
+  Denna container är dagens väder och info
+  </div!-->
+  <div class="container">
+    <div class="card">
+     <img id="weather-icon" src="" alt="">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
+
+  </div>
+  <div id = "weatherContainer">
+    <div id="iconsContainer">    
+        <div class = "icons">
+            <p class="weather" id="day1"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+            <p class="minValues" id="day1Min">Loading...</p>
+            <p class="maxValues" id="day1Max">Loading...</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day2"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+            <p class="minValues" id="day2Min">Loading...</p>
+            <p class="maxValues" id="day2Max">Loading...</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day3"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+            <p class="minValues" id="day3Min">Loading...</p>
+            <p class="maxValues" id="day3Max">Loading...</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day4"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+            <p class="minValues" id="day4Min">Loading...</p>
+            <p class="maxValues" id="day4Max">Loading...</p>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day5"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+            <p class="minValues" id="day5Min">Loading...</p>
+            <p class="maxValues" id="day5Max">Loading...</p>
+        </div>
+    </div>
+</div>
+    
+      
+      
+      
+      
+      
+     
+    
+
+
+
+ 
+    <!--div>
+  Denna container är Veckodagrnas info
+  </div!-->
+  <div>
+    
+  </div>
+
+  
+<script src="app.js"></script>
+<script src="test.js"></script>
+<script src="forecast.js"></script>
+</body>
+</html>
